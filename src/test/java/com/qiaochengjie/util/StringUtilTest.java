@@ -11,7 +11,7 @@ public class StringUtilTest {
 	@Test
 	public void testHasLength() {
 		//测试string类型的值是否符合要求
-		String s="";
+		String s="请我";
      boolean length = StringUtil.hasLength(s);
      System.out.println(length);
 	}
@@ -19,14 +19,14 @@ public class StringUtilTest {
 	@Test
 	public void testHasText() {
 		//测试string类型的值是否符合要求
-	 boolean b = StringUtil.hasText("");
+	 boolean b = StringUtil.hasText("啥第三方");
 	 System.out.println(b);
 	}
 
 	@Test
 	public void testRandomChineseString() throws UnsupportedEncodingException {
       //测试随机长度的字符
-		String string = StringUtil.randomChineseString(10);
+		String string = StringUtil.randomChineseString(5);
      System.out.println(string);
 	}
 

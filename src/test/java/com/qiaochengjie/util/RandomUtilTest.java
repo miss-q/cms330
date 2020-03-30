@@ -39,7 +39,7 @@ public class RandomUtilTest {
 	@Test
 	public void testRandomString() {
 		//²âÊÔËæ»úÉú³É×Ö·û´®
-         String string = RandomUtil.randomString(10);
+         String string = RandomUtil.randomString(5);
          System.out.println(string);
 	}
 
